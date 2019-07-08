@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7D0ED3BBE3FD36D86C162D /* libPods-foodAlaramAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 925FD025B80E3C3F1705F53D /* libPods-foodAlaramAppTests.a */; };
+		5E0353EED1FF034A9523DBFE /* libPods-foodAlaramAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3569AB639D68EB43457627 /* libPods-foodAlaramAppUITests.a */; };
+		633AE9401CDDF1A4004D7687 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633AE93F1CDDF1A4004D7687 /* main.m */; };
+		633AE9431CDDF1A5004D7687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633AE9421CDDF1A5004D7687 /* AppDelegate.m */; };
+		633AE9491CDDF1A7004D7687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633AE9471CDDF1A7004D7687 /* Main.storyboard */; };
+		633AE94B1CDDF1A7004D7687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633AE94A1CDDF1A7004D7687 /* Assets.xcassets */; };
+		633AE94E1CDDF1A7004D7687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633AE94C1CDDF1A7004D7687 /* LaunchScreen.storyboard */; };
+		633AE9591CDDF1A8004D7687 /* foodAlarmAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633AE9581CDDF1A8004D7687 /* foodAlarmAppTests.m */; };
+		633AE9641CDDF1A8004D7687 /* foodAlarmAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633AE9631CDDF1A8004D7687 /* foodAlarmAppUITests.m */; };
+		633AE9731CDDF1DA004D7687 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633AE9721CDDF1DA004D7687 /* homeViewController.m */; };
+		633AE9761CDDF219004D7687 /* scheduleAlaramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633AE9751CDDF219004D7687 /* scheduleAlaramViewController.m */; };
+		633AE9781CDE174D004D7687 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 633AE9771CDE174D004D7687 /* libsqlite3.tbd */; };
+		633AE97B1CDE1763004D7687 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 633AE97A1CDE1763004D7687 /* DBManager.m */; };
+		63FD1AEE1CE4A70C00DADAE8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FD1AED1CE4A70C00DADAE8 /* AVFoundation.framework */; };
+		B8D76D9162F75EA57367F49E /* libPods-foodAlaramApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF6CEB9E3253C760E054B76 /* libPods-foodAlaramApp.a */; };
+		F55944362138856E000C1CEC /* background_lunch.png in Resources */ = {isa = PBXBuildFile; fileRef = F559442D2138856C000C1CEC /* background_lunch.png */; };
+		F55944372138856E000C1CEC /* background_main.png in Resources */ = {isa = PBXBuildFile; fileRef = F559442E2138856D000C1CEC /* background_main.png */; };
+		F55944382138856E000C1CEC /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = F559442F2138856D000C1CEC /* clock.png */; };
+		F55944392138856E000C1CEC /* background_breakfast.png in Resources */ = {isa = PBXBuildFile; fileRef = F55944302138856D000C1CEC /* background_breakfast.png */; };
+		F559443A2138856E000C1CEC /* Kollektif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F55944312138856D000C1CEC /* Kollektif.ttf */; };
+		F559443C2138856E000C1CEC /* background_dinner.png in Resources */ = {isa = PBXBuildFile; fileRef = F55944332138856E000C1CEC /* background_dinner.png */; };
+		F559443D2138856E000C1CEC /* iphone 8 background - the dinner bell - 750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = F55944342138856E000C1CEC /* iphone 8 background - the dinner bell - 750x1334.png */; };
+		F559443E2138856E000C1CEC /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = F55944352138856E000C1CEC /* delete.png */; };
+		F55944402138872D000C1CEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F559443F2138872D000C1CEC /* GoogleService-Info.plist */; };
+		F559444321388754000C1CEC /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F559444121388753000C1CEC /* SignInViewController.m */; };
+		F5C9CD4821388F4900C89BDD /* alarm.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F5C9CD4721388F4900C89BDD /* alarm.aiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		633AE9551CDDF1A8004D7687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633AE9331CDDF1A3004D7687 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633AE93A1CDDF1A3004D7687;
+			remoteInfo = foodAlaramApp;
+		};
+		633AE9601CDDF1A8004D7687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633AE9331CDDF1A3004D7687 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633AE93A1CDDF1A3004D7687;
+			remoteInfo = foodAlaramApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		290E77E651F71C69E89C7DAF /* Pods-foodAlaramAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodAlaramAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foodAlaramAppTests/Pods-foodAlaramAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BF6CEB9E3253C760E054B76 /* libPods-foodAlaramApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-foodAlaramApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EDE2F3C884C37D5822A2F7 /* Pods-foodAlaramApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodAlaramApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foodAlaramApp/Pods-foodAlaramApp.debug.xcconfig"; sourceTree = "<group>"; };
+		633AE93B1CDDF1A4004D7687 /* The Dinner Bell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Dinner Bell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		633AE93F1CDDF1A4004D7687 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		633AE9411CDDF1A5004D7687 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		633AE9421CDDF1A5004D7687 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		633AE9481CDDF1A7004D7687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633AE94A1CDDF1A7004D7687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633AE94D1CDDF1A7004D7687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		633AE94F1CDDF1A7004D7687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633AE9541CDDF1A8004D7687 /* foodAlarmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodAlarmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633AE9581CDDF1A8004D7687 /* foodAlarmAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foodAlarmAppTests.m; sourceTree = "<group>"; };
+		633AE95A1CDDF1A8004D7687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633AE95F1CDDF1A8004D7687 /* foodAlarmAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodAlarmAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633AE9631CDDF1A8004D7687 /* foodAlarmAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foodAlarmAppUITests.m; sourceTree = "<group>"; };
+		633AE9651CDDF1A8004D7687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633AE9711CDDF1DA004D7687 /* homeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
+		633AE9721CDDF1DA004D7687 /* homeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
+		633AE9741CDDF219004D7687 /* scheduleAlaramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scheduleAlaramViewController.h; sourceTree = "<group>"; };
+		633AE9751CDDF219004D7687 /* scheduleAlaramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scheduleAlaramViewController.m; sourceTree = "<group>"; };
+		633AE9771CDE174D004D7687 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		633AE9791CDE1763004D7687 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		633AE97A1CDE1763004D7687 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		63FAF16A1D1A94E000BDDAE0 /* alarm.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = alarm.aiff; sourceTree = "<group>"; };
+		63FD1AED1CE4A70C00DADAE8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7E3569AB639D68EB43457627 /* libPods-foodAlaramAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-foodAlaramAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		854B6DE86A8BB883C703DA4F /* Pods-foodAlaramAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodAlaramAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foodAlaramAppUITests/Pods-foodAlaramAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		925FD025B80E3C3F1705F53D /* libPods-foodAlaramAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-foodAlaramAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6368C3FA0302F127253CDB /* Pods-foodAlaramAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodAlaramAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-foodAlaramAppUITests/Pods-foodAlaramAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C96E7BF02A9E215C9B601876 /* Pods-foodAlaramApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodAlaramApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-foodAlaramApp/Pods-foodAlaramApp.release.xcconfig"; sourceTree = "<group>"; };
+		F559442D2138856C000C1CEC /* background_lunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_lunch.png; sourceTree = "<group>"; };
+		F559442E2138856D000C1CEC /* background_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_main.png; sourceTree = "<group>"; };
+		F559442F2138856D000C1CEC /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		F55944302138856D000C1CEC /* background_breakfast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_breakfast.png; sourceTree = "<group>"; };
+		F55944312138856D000C1CEC /* Kollektif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kollektif.ttf; sourceTree = "<group>"; };
+		F55944332138856E000C1CEC /* background_dinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_dinner.png; sourceTree = "<group>"; };
+		F55944342138856E000C1CEC /* iphone 8 background - the dinner bell - 750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone 8 background - the dinner bell - 750x1334.png"; sourceTree = "<group>"; };
+		F55944352138856E000C1CEC /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		F559443F2138872D000C1CEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F559444121388753000C1CEC /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		F559444221388754000C1CEC /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		F5C9CD4721388F4900C89BDD /* alarm.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = alarm.aiff; sourceTree = "<group>"; };
+		FF10F453446763886EB9FBD9 /* Pods-foodAlaramAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodAlaramAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-foodAlaramAppTests/Pods-foodAlaramAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633AE9381CDDF1A3004D7687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FD1AEE1CE4A70C00DADAE8 /* AVFoundation.framework in Frameworks */,
+				633AE9781CDE174D004D7687 /* libsqlite3.tbd in Frameworks */,
+				B8D76D9162F75EA57367F49E /* libPods-foodAlaramApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633AE9511CDDF1A8004D7687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7D0ED3BBE3FD36D86C162D /* libPods-foodAlaramAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633AE95C1CDDF1A8004D7687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0353EED1FF034A9523DBFE /* libPods-foodAlaramAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633AE9321CDDF1A2004D7687 = {
+			isa = PBXGroup;
+			children = (
+				63FD1AED1CE4A70C00DADAE8 /* AVFoundation.framework */,
+				633AE9771CDE174D004D7687 /* libsqlite3.tbd */,
+				633AE93D1CDDF1A4004D7687 /* foodAlarmApp */,
+				633AE9571CDDF1A8004D7687 /* foodAlarmAppTests */,
+				633AE9621CDDF1A8004D7687 /* foodAlarmAppUITests */,
+				633AE93C1CDDF1A4004D7687 /* Products */,
+				B86B8F801424457120DEEEAA /* Pods */,
+				9AD91C7D08F52F18E42DAA26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		633AE93C1CDDF1A4004D7687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633AE93B1CDDF1A4004D7687 /* The Dinner Bell.app */,
+				633AE9541CDDF1A8004D7687 /* foodAlarmAppTests.xctest */,
+				633AE95F1CDDF1A8004D7687 /* foodAlarmAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633AE93D1CDDF1A4004D7687 /* foodAlarmApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9CD4721388F4900C89BDD /* alarm.aiff */,
+				F55944302138856D000C1CEC /* background_breakfast.png */,
+				F55944332138856E000C1CEC /* background_dinner.png */,
+				F559442D2138856C000C1CEC /* background_lunch.png */,
+				F559442E2138856D000C1CEC /* background_main.png */,
+				F559442F2138856D000C1CEC /* clock.png */,
+				F55944352138856E000C1CEC /* delete.png */,
+				F55944342138856E000C1CEC /* iphone 8 background - the dinner bell - 750x1334.png */,
+				F55944312138856D000C1CEC /* Kollektif.ttf */,
+				633AE9791CDE1763004D7687 /* DBManager.h */,
+				633AE97A1CDE1763004D7687 /* DBManager.m */,
+				633AE9411CDDF1A5004D7687 /* AppDelegate.h */,
+				633AE9421CDDF1A5004D7687 /* AppDelegate.m */,
+				F559444221388754000C1CEC /* SignInViewController.h */,
+				F559444121388753000C1CEC /* SignInViewController.m */,
+				633AE9711CDDF1DA004D7687 /* homeViewController.h */,
+				633AE9721CDDF1DA004D7687 /* homeViewController.m */,
+				633AE9741CDDF219004D7687 /* scheduleAlaramViewController.h */,
+				633AE9751CDDF219004D7687 /* scheduleAlaramViewController.m */,
+				633AE9471CDDF1A7004D7687 /* Main.storyboard */,
+				633AE94A1CDDF1A7004D7687 /* Assets.xcassets */,
+				633AE94C1CDDF1A7004D7687 /* LaunchScreen.storyboard */,
+				633AE94F1CDDF1A7004D7687 /* Info.plist */,
+				F559443F2138872D000C1CEC /* GoogleService-Info.plist */,
+				633AE93E1CDDF1A4004D7687 /* Supporting Files */,
+			);
+			path = foodAlarmApp;
+			sourceTree = "<group>";
+		};
+		633AE93E1CDDF1A4004D7687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63FAF16A1D1A94E000BDDAE0 /* alarm.aiff */,
+				633AE93F1CDDF1A4004D7687 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		633AE9571CDDF1A8004D7687 /* foodAlarmAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				633AE9581CDDF1A8004D7687 /* foodAlarmAppTests.m */,
+				633AE95A1CDDF1A8004D7687 /* Info.plist */,
+			);
+			path = foodAlarmAppTests;
+			sourceTree = "<group>";
+		};
+		633AE9621CDDF1A8004D7687 /* foodAlarmAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				633AE9631CDDF1A8004D7687 /* foodAlarmAppUITests.m */,
+				633AE9651CDDF1A8004D7687 /* Info.plist */,
+			);
+			path = foodAlarmAppUITests;
+			sourceTree = "<group>";
+		};
+		9AD91C7D08F52F18E42DAA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BF6CEB9E3253C760E054B76 /* libPods-foodAlaramApp.a */,
+				925FD025B80E3C3F1705F53D /* libPods-foodAlaramAppTests.a */,
+				7E3569AB639D68EB43457627 /* libPods-foodAlaramAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B86B8F801424457120DEEEAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48EDE2F3C884C37D5822A2F7 /* Pods-foodAlaramApp.debug.xcconfig */,
+				C96E7BF02A9E215C9B601876 /* Pods-foodAlaramApp.release.xcconfig */,
+				290E77E651F71C69E89C7DAF /* Pods-foodAlaramAppTests.debug.xcconfig */,
+				FF10F453446763886EB9FBD9 /* Pods-foodAlaramAppTests.release.xcconfig */,
+				854B6DE86A8BB883C703DA4F /* Pods-foodAlaramAppUITests.debug.xcconfig */,
+				AD6368C3FA0302F127253CDB /* Pods-foodAlaramAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633AE93A1CDDF1A3004D7687 /* foodAlarmApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633AE9681CDDF1A8004D7687 /* Build configuration list for PBXNativeTarget "foodAlarmApp" */;
+			buildPhases = (
+				E63AEA30FDEFF7320ABCC5CB /* [CP] Check Pods Manifest.lock */,
+				633AE9371CDDF1A3004D7687 /* Sources */,
+				633AE9381CDDF1A3004D7687 /* Frameworks */,
+				633AE9391CDDF1A3004D7687 /* Resources */,
+				62EB52E6584221A214876541 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foodAlarmApp;
+			productName = foodAlaramApp;
+			productReference = 633AE93B1CDDF1A4004D7687 /* The Dinner Bell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		633AE9531CDDF1A8004D7687 /* foodAlarmAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633AE96B1CDDF1A8004D7687 /* Build configuration list for PBXNativeTarget "foodAlarmAppTests" */;
+			buildPhases = (
+				5B6425B783A674675586E7E0 /* [CP] Check Pods Manifest.lock */,
+				633AE9501CDDF1A8004D7687 /* Sources */,
+				633AE9511CDDF1A8004D7687 /* Frameworks */,
+				633AE9521CDDF1A8004D7687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633AE9561CDDF1A8004D7687 /* PBXTargetDependency */,
+			);
+			name = foodAlarmAppTests;
+			productName = foodAlaramAppTests;
+			productReference = 633AE9541CDDF1A8004D7687 /* foodAlarmAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		633AE95E1CDDF1A8004D7687 /* foodAlarmAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633AE96E1CDDF1A8004D7687 /* Build configuration list for PBXNativeTarget "foodAlarmAppUITests" */;
+			buildPhases = (
+				5AD536A4BF791F8415E799A7 /* [CP] Check Pods Manifest.lock */,
+				633AE95B1CDDF1A8004D7687 /* Sources */,
+				633AE95C1CDDF1A8004D7687 /* Frameworks */,
+				633AE95D1CDDF1A8004D7687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633AE9611CDDF1A8004D7687 /* PBXTargetDependency */,
+			);
+			name = foodAlarmAppUITests;
+			productName = foodAlaramAppUITests;
+			productReference = 633AE95F1CDDF1A8004D7687 /* foodAlarmAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633AE9331CDDF1A3004D7687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Study India";
+				TargetAttributes = {
+					633AE93A1CDDF1A3004D7687 = {
+						CreatedOnToolsVersion = 7.3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					633AE9531CDDF1A8004D7687 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 633AE93A1CDDF1A3004D7687;
+					};
+					633AE95E1CDDF1A8004D7687 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 633AE93A1CDDF1A3004D7687;
+					};
+				};
+			};
+			buildConfigurationList = 633AE9361CDDF1A3004D7687 /* Build configuration list for PBXProject "foodAlarmApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633AE9321CDDF1A2004D7687;
+			productRefGroup = 633AE93C1CDDF1A4004D7687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633AE93A1CDDF1A3004D7687 /* foodAlarmApp */,
+				633AE9531CDDF1A8004D7687 /* foodAlarmAppTests */,
+				633AE95E1CDDF1A8004D7687 /* foodAlarmAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633AE9391CDDF1A3004D7687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F559443C2138856E000C1CEC /* background_dinner.png in Resources */,
+				F55944362138856E000C1CEC /* background_lunch.png in Resources */,
+				F559443D2138856E000C1CEC /* iphone 8 background - the dinner bell - 750x1334.png in Resources */,
+				F55944372138856E000C1CEC /* background_main.png in Resources */,
+				633AE94E1CDDF1A7004D7687 /* LaunchScreen.storyboard in Resources */,
+				F559443E2138856E000C1CEC /* delete.png in Resources */,
+				633AE94B1CDDF1A7004D7687 /* Assets.xcassets in Resources */,
+				F55944392138856E000C1CEC /* background_breakfast.png in Resources */,
+				F559443A2138856E000C1CEC /* Kollektif.ttf in Resources */,
+				F5C9CD4821388F4900C89BDD /* alarm.aiff in Resources */,
+				F55944382138856E000C1CEC /* clock.png in Resources */,
+				633AE9491CDDF1A7004D7687 /* Main.storyboard in Resources */,
+				F55944402138872D000C1CEC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633AE9521CDDF1A8004D7687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633AE95D1CDDF1A8004D7687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AD536A4BF791F8415E799A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodAlaramAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B6425B783A674675586E7E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodAlaramAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62EB52E6584221A214876541 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-foodAlaramApp/Pods-foodAlaramApp-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-foodAlaramApp/Pods-foodAlaramApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63AEA30FDEFF7320ABCC5CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodAlaramApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633AE9371CDDF1A3004D7687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633AE9761CDDF219004D7687 /* scheduleAlaramViewController.m in Sources */,
+				633AE9431CDDF1A5004D7687 /* AppDelegate.m in Sources */,
+				633AE97B1CDE1763004D7687 /* DBManager.m in Sources */,
+				633AE9401CDDF1A4004D7687 /* main.m in Sources */,
+				F559444321388754000C1CEC /* SignInViewController.m in Sources */,
+				633AE9731CDDF1DA004D7687 /* homeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633AE9501CDDF1A8004D7687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633AE9591CDDF1A8004D7687 /* foodAlarmAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633AE95B1CDDF1A8004D7687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633AE9641CDDF1A8004D7687 /* foodAlarmAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		633AE9561CDDF1A8004D7687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633AE93A1CDDF1A3004D7687 /* foodAlarmApp */;
+			targetProxy = 633AE9551CDDF1A8004D7687 /* PBXContainerItemProxy */;
+		};
+		633AE9611CDDF1A8004D7687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633AE93A1CDDF1A3004D7687 /* foodAlarmApp */;
+			targetProxy = 633AE9601CDDF1A8004D7687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		633AE9471CDDF1A7004D7687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633AE9481CDDF1A7004D7687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633AE94C1CDDF1A7004D7687 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633AE94D1CDDF1A7004D7687 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		633AE9661CDDF1A8004D7687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		633AE9671CDDF1A8004D7687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		633AE9691CDDF1A8004D7687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EDE2F3C884C37D5822A2F7 /* Pods-foodAlaramApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Manish Chaudhary (944M2FDZWM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IBSC_WARNINGS = NO;
+				INFOPLIST_FILE = foodAlarmApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dolphinmobile.foodAlarmApp;
+				PRODUCT_NAME = "The Dinner Bell";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		633AE96A1CDDF1A8004D7687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96E7BF02A9E215C9B601876 /* Pods-foodAlaramApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IBSC_WARNINGS = NO;
+				INFOPLIST_FILE = foodAlarmApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dolphinmobile.foodAlarmApp;
+				PRODUCT_NAME = "The Dinner Bell";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		633AE96C1CDDF1A8004D7687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290E77E651F71C69E89C7DAF /* Pods-foodAlaramAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = foodAlaramAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StudyIndia.foodAlaramAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodAlarmApp.app/foodAlarmApp";
+			};
+			name = Debug;
+		};
+		633AE96D1CDDF1A8004D7687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF10F453446763886EB9FBD9 /* Pods-foodAlaramAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = foodAlaramAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StudyIndia.foodAlaramAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodAlarmApp.app/foodAlarmApp";
+			};
+			name = Release;
+		};
+		633AE96F1CDDF1A8004D7687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854B6DE86A8BB883C703DA4F /* Pods-foodAlaramAppUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = foodAlaramAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StudyIndia.foodAlaramAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = foodAlaramApp;
+			};
+			name = Debug;
+		};
+		633AE9701CDDF1A8004D7687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6368C3FA0302F127253CDB /* Pods-foodAlaramAppUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = foodAlaramAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StudyIndia.foodAlaramAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = foodAlaramApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633AE9361CDDF1A3004D7687 /* Build configuration list for PBXProject "foodAlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633AE9661CDDF1A8004D7687 /* Debug */,
+				633AE9671CDDF1A8004D7687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633AE9681CDDF1A8004D7687 /* Build configuration list for PBXNativeTarget "foodAlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633AE9691CDDF1A8004D7687 /* Debug */,
+				633AE96A1CDDF1A8004D7687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633AE96B1CDDF1A8004D7687 /* Build configuration list for PBXNativeTarget "foodAlarmAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633AE96C1CDDF1A8004D7687 /* Debug */,
+				633AE96D1CDDF1A8004D7687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633AE96E1CDDF1A8004D7687 /* Build configuration list for PBXNativeTarget "foodAlarmAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633AE96F1CDDF1A8004D7687 /* Debug */,
+				633AE9701CDDF1A8004D7687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 633AE9331CDDF1A3004D7687 /* Project object */;
+}
